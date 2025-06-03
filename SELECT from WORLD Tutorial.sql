@@ -12,3 +12,5 @@ WHERE continent = 'South America'
 SELECT name, population FROM world
 WHERE name IN ('France', 'Germany', 'Italy');
 
+SELECT name FROM world
+WHERE name LIKE CONCAT('%', 'United', '%')
